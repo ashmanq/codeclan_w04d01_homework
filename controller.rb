@@ -8,7 +8,6 @@ get '/play/:p1/:p2' do
   p1_choice = params['p1']
   p2_choice = params['p2']
   @result = RockPaperScissors.check_winner(p1_choice, p2_choice)
-  @picture = 
   erb(:result)
 end
 
