@@ -1,0 +1,13 @@
+
+body{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #8B5FBF;
+
+}
+h1, h2{
+  text-align: center ;
+}
+nav li {
+  display: inline;
+  padding: 5px;
+}
